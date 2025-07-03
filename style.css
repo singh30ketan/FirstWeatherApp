@@ -63,8 +63,8 @@ body{
     font-weight: 500;
 }
 .weather h2{
-    font-size: 45px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight: 320;
     margin-top: -2px;
 }
 
@@ -74,4 +74,20 @@ body{
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+font-size: 28px;
+margin-top: -6px;
 }
